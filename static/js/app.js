@@ -31,3 +31,27 @@ function buildTable(data) {
 
 
 };
+
+// function to handle filter button click
+function handleClick() {
+    
+    // variables to hold date data, and filtered table data
+    let date = d3.select("#datetime").property("value");
+
+    let filteredData = tableData;
+
+    // check for date filter
+    if (date) {
+
+        // filter table if present
+        filteredData = filteredData.filter(row => row.datetime === date);
+    };
+
+    buildTable(filteredData);
+};
+
+// listen for mouse click on filter button
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// build unfiltered table on page load
+buildTable(tableData);
