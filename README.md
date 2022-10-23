@@ -20,7 +20,7 @@ At entry the webpage displays a title and brief discussion of the subject as wel
 
 The data is filterable on 5 categories: Date, City, State, Country, and Shape of sighting. The filter form provides example formats in each filter box for the user. 
 
-![filter](https://github.com/Jforbus/UFOs/blob/main/static/images/filter.png)
+![filter](https://github.com/Jforbus/UFOs/blob/main/static/images/Filter.png)
 
 The user can input search criteria to one or all of the 5 filter fields, and see only matching results. The table updates automatically upon each filter field update.
 
