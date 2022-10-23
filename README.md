@@ -32,7 +32,7 @@ Next the state of the sighting is added, further narrowing the results.
 
 ![state_filter](https://github.com/Jforbus/UFOs/blob/main/static/images/state_filter.png)
 
-To reset the table the user can simply clear the filters manually by deleting their input, or by clicking the link located at the top right corner of the to reload the page.
+To reset the table the user can simply clear the filters manually by deleting their input, or by clicking the link located at the top right corner of the page.
 
 ![reset_link](https://github.com/Jforbus/UFOs/blob/main/static/images/reset_link.png)
 
